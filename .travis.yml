@@ -3,7 +3,9 @@ arch:
 - amd64
 - ppc64le
 node_js:
-- '6'
+- '8'
+- '10'
+- '12'
 script: npm run test-travis
 env:
   global:

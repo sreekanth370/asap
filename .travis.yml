@@ -4,7 +4,7 @@ arch:
 - ppc64le
 node_js:
 - '14'
-- '16'
+- '12'
 script: npm run test-travis
 env:
   global:

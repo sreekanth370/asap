@@ -1,10 +1,10 @@
 language: node_js
 arch:
-- amd64
-- ppc64le
+  - amd64
+  - ppc64le
 node_js:
-- '14'
-- '12'
+  - '8'
+  - '6'
 script: npm run test-travis
 env:
   global:
